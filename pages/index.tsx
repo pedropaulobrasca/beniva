@@ -1,9 +1,11 @@
 import Head from 'next/head';
 import { useState } from 'react';
+import { Contato } from '../components/Contato';
+import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import Nav from '../components/Nav';
 import Servicos from '../components/Serviços';
-import Sobre from '../components/Sobre';
+import { Sobre } from '../components/Sobre';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,6 +22,8 @@ export default function Home() {
         <Header />
         <Sobre />
         <Servicos />
+        <Contato />
+        <Footer />
         <script
           async={true}
           defer={true}

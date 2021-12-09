@@ -17,17 +17,17 @@ export default function Nav() {
             </a>
           </li>
           <li className="mr-4">
-            <a href="/" className="hover:font-bold">
+            <a href="#empresa" className="hover:font-bold">
               EMPRESA
             </a>
           </li>
           <li className="mr-4">
-            <a href="/" className="hover:font-bold">
+            <a href="#servicos" className="hover:font-bold">
               SERVIÇOS
             </a>
           </li>
           <li className="mr-4">
-            <a href="/" className="hover:font-bold">
+            <a href="#contato" className="hover:font-bold">
               CONTATO
             </a>
           </li>
