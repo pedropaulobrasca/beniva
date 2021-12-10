@@ -122,7 +122,7 @@ export const Nav = () => {
                         <rect x="14" y="11" width="7" height="12" />
                       </svg>
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Company
+                        Beniva
                       </span>
                     </a>
                   </div>
@@ -147,41 +147,41 @@ export const Nav = () => {
                     <li>
                       <a
                         href="/"
-                        aria-label="Our product"
-                        title="Our product"
+                        aria-label="Home"
+                        title="Home"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Product
+                        Home
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
+                        href="#empresa"
+                        aria-label="Sobre"
+                        title="Sobre"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Features
+                        Sobre
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/"
-                        aria-label="Product pricing"
-                        title="Product pricing"
+                        href="#servicos"
+                        aria-label="Serviços"
+                        title="Serviços"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Pricing
+                        Serviços
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/"
-                        aria-label="About us"
-                        title="About us"
+                        href="#contato"
+                        aria-label="Contato"
+                        title="Contato"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        About us
+                        Contato
                       </a>
                     </li>
                   </ul>

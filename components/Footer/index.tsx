@@ -13,8 +13,8 @@ export const Footer = () => {
         />
       </svg>
       <div className="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
-          <div className="md:max-w-md lg:col-span-2">
+        <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-4">
+          <div className="md:max-w-md lg:col-span-1">
             <a
               href="/"
               aria-label="Go home"
@@ -40,97 +40,30 @@ export const Footer = () => {
                 Beniva
               </span>
             </a>
-            <div className="mt-4 lg:max-w-sm">
-            </div>
+            <div className="mt-4 lg:max-w-sm"></div>
           </div>
-          <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
-            <div></div>
-            <div></div>
+          <div className="grid grid-cols-1 gap-5 row-gap-8 lg:col-span-3 md:grid-cols-4">
             <div>
-              <p className="font-semibold tracking-wide text-teal-accent-400">
-                Alguma coisa
-              </p>
-              <ul className="mt-2 space-y-2">
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Media
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Brochure
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Nonprofit
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Educational
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Projects
-                  </a>
-                </li>
-              </ul>
+              {/* <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Fserralheria.beniva&tabs=timeline&width=340&height=56&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                scrolling="no"
+                frameBorder="0"
+                allowFullScreen={true}
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              ></iframe> */}
             </div>
             <div>
               <p className="font-semibold tracking-wide text-teal-accent-400">
-                Outra coisa
+                Localização
               </p>
-              <ul className="mt-2 space-y-2">
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Infopreneur
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Personal
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Wiki
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
-                  >
-                    Forum
-                  </a>
-                </li>
-              </ul>
+              <p>Rua do Benfica, nº 1, Vila Nova de Gaia, Porto</p>
+            </div>
+            <div>
+              <p className="font-semibold tracking-wide text-teal-accent-400">
+                Contato
+              </p>
+              <p>Telefone: +351 912 567 890</p>
+              <p>E-mail: contato@serralheriabeniva.com.br</p>
             </div>
           </div>
         </div>
