@@ -1,6 +1,7 @@
 export const Header = () => {
   return (
-    <div className="relative bg-green-300 w-full">
+    <div className="relative bg-green-300 flex justify-center">
+      {/* bordinha embaixo */}
       <div className="absolute inset-x-0 bottom-0">
         <svg
           viewBox="0 0 224 12"
@@ -14,17 +15,10 @@ export const Header = () => {
       <div className="px-4 py-16 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 ">
         <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
           <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight  sm:text-4xl sm:leading-none">
-            Inscreva-se com seu email
-            <br className="hidden md:block" />
-            para não perder nenhuma novidade!{' '}
-            <span className="relative inline-block px-2">
-              <div className="absolute inset-0 transform -skew-x-12 bg-teal-accent-400" />
-            </span>
+            Não perca nenhuma novidade!
           </h2>
           <p className="mb-6 text-base  md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae. explicabo. Sed ut perspiciatis unde omnis.
+            Coloque seu melhor e-mail e receba nossas novidades. 😊
           </p>
           <form className="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
             <input
@@ -41,11 +35,10 @@ export const Header = () => {
             </a>
           </form>
           <p className="max-w-md mb-10 text-xs tracking-wide sm:text-sm sm:mx-auto md:mb-16">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque.
+            Respeitamos sua privacidade. Não compartilharemos seu e-mail com ninguém.
           </p>
           <a
-            href="#sobre"
+            href="#empresa"
             aria-label="Scroll down"
             className="flex items-center justify-center w-10 h-10 mx-auto duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
           >

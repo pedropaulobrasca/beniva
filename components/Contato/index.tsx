@@ -17,7 +17,7 @@ export const Contato = () => {
                 <form>
                   <div className="mb-1 sm:mb-2">
                     <label
-                      htmlFor="firstName"
+                      htmlFor="nome"
                       className="inline-block mb-1 font-medium"
                     >
                       Nome
@@ -26,13 +26,14 @@ export const Contato = () => {
                       required
                       type="text"
                       className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                      id="firstName"
-                      name="firstName"
+                      id="nome"
+                      name="nome"
+                      placeholder="Fulano da Silva"
                     />
                   </div>
                   <div className="mb-1 sm:mb-2">
                     <label
-                      htmlFor="lastName"
+                      htmlFor="telefone"
                       className="inline-block mb-1 font-medium"
                     >
                       Telefone
@@ -41,8 +42,9 @@ export const Contato = () => {
                       required
                       type="tel"
                       className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                      id="lastName"
-                      name="lastName"
+                      id="telefone"
+                      name="telefone"
+                      placeholder="(00) 00000-0000"
                     />
                   </div>
                   <div className="mb-1 sm:mb-2">
@@ -78,7 +80,7 @@ export const Contato = () => {
                   <div className="mt-4 mb-2 sm:mb-4">
                     <button
                       type="submit"
-                      className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                      className="bg-purple-500 text-white inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                     >
                       Contatar
                     </button>
