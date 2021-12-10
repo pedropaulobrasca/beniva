@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <div className="relative bg-green-300 flex justify-center">
+    <div className="relative bg-deep-purple-accent-400 text-white flex justify-center">
       {/* bordinha embaixo */}
       <div className="absolute inset-x-0 bottom-0">
         <svg
@@ -25,11 +25,11 @@ export const Header = () => {
               placeholder="Email"
               required
               type="text"
-              className="flex-grow w-full h-12 px-4 mb-3 transition duration-200 border-2 border-transparent rounded appearance-none md:mr-2 md:mb-0 bg-deep-purple-900 focus:border-teal-accent-700 focus:outline-none focus:shadow-outline"
+              className="flex-grow w-full h-12 px-4 mb-3 transition duration-200 border-2 border-transparent rounded appearance-none md:mr-2 md:mb-0  focus:border-teal-accent-700 focus:outline-none focus:shadow-outline"
             />
             <a
               href="/"
-              className="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md md:w-auto hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none bg-blue-500 text-white"
+              className="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md md:w-auto hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none text-white"
             >
               Inscrever
             </a>
@@ -48,7 +48,7 @@ export const Header = () => {
               height="12"
               viewBox="0 0 12 12"
               fill="currentColor"
-              className="text-black"
+              className="text-white"
             >
               <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z" />
             </svg>
